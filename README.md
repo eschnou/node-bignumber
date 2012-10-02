@@ -7,8 +7,6 @@ RSA encryption. Packaged to also be used in a node environment.
 This library is a packaging of the original code from Tom Wu. The original files are available in the
 original/ folder or on his [site](http://www-cs-students.stanford.edu/~tjw/jsbn/).
 
-Updated for July 2012 release as well as the 1.3 release of [jsrsasign](https://github.com/kjur/jsrsasign).
-
 Install
 -------
 
