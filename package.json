@@ -1,4 +1,4 @@
-{ "name" : "bignumber"
+{ "name" : "bignumber-jt"
 , "description" : "A pure javascript implementation of BigIntegers and RSA crypto."
 , "engines": { "node" : ">=0.4.0" }
 , "version": "v1.2.0"
@@ -6,5 +6,5 @@
 , "homepage": "http://www-cs-students.stanford.edu/~tjw/jsbn/"
 , "author": "Tom Wu <tjw@cs.stanford.edu> (http://www-cs-students.stanford.edu/~tjw/)"
 , "main" : "./lib/rsa"
-, "repository" : { "type": "git", "url": "https://github.com/eschnou/node-rsa.git"}
+, "repository" : { "type": "git", "url": "https://github.com/Rcomian/node-bignumber.git"}
 }
