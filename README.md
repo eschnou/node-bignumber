@@ -9,11 +9,16 @@ original/ folder or on his [site](http://www-cs-students.stanford.edu/~tjw/jsbn/
 
 Updated for the 1.2 release as well as the 1.3 release of [jsrsasign](https://github.com/kjur/jsrsasign).
 
+This Fork
+---------
+Native Node hashing algorithms are used in place of the original pure JavaScript ones.
+Buffers are used as input and output instead of strings.  Still need to convert to Buffers all the way through.
+
 Install
 -------
 
-If you are using npm (the node packet manager), installing is as easy as:
-    npm install bignumber
+Using NPM, installing is as easy as:
+    npm install node-bignumber
 
 Usage
 -----
