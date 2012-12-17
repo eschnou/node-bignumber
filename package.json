@@ -1,4 +1,4 @@
-{ "name" : "bignumber"
+{ "name" : "node-bignumber"
 , "description" : "A pure javascript implementation of BigIntegers and RSA crypto."
 , "engines": { "node" : ">=0.4.0" }
 , "version": "v1.2.1"
@@ -13,8 +13,8 @@
     {
       "name": "Jim Tupper",
       "email": "github@tupper.org.uk"
-    }, 
-  ],
+    }
+  ]
 , "main" : "./lib/rsa"
 , "repository" : { "type": "git", "url": "https://github.com/JoeDoyle23/node-bignumber.git"}
 }
