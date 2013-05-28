@@ -84,3 +84,21 @@ In addition, the following condition applies:
 
 All redistributions must retain an intact copy of this copyright notice
 and disclaimer.
+
+Licensing For Code used in rsa.js
+---------------------------------
+  
+rsasign-1.2.js (c) 2012 Kenji Urushima | kjur.github.com/jsrsasign/license
+
+rsa-sign.js - adding signing functions to RSAKey class.
+
+version: 1.2.1 (08 May 2012)
+
+Copyright (c) 2010-2012 Kenji Urushima (kenji.urushima@gmail.com)
+
+This software is licensed under the terms of the MIT License.
+http://kjur.github.com/jsrsasign/license/
+
+The above copyright and license notice shall be
+included in all copies or substantial portions of the Software.
+  
