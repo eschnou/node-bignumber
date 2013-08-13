@@ -7,11 +7,18 @@ RSA encryption. Packaged to also be used in a node environment.
 This library is a packaging of the original code from Tom Wu. The original files are available in the
 original/ folder or on his [site](http://www-cs-students.stanford.edu/~tjw/jsbn/).
 
+Updated for the 1.2 release as well as the 1.3 release of [jsrsasign](https://github.com/kjur/jsrsasign).
+
+This Fork
+---------
+Native Node hashing algorithms are used in place of the original pure JavaScript ones.
+Buffers are used as input and output instead of strings.  Still need to convert to Buffers all the way through.
+
 Install
 -------
 
-If you are using npm (the node packet manager), installing is as easy as:
-    npm install bignumber
+Using NPM, installing is as easy as:
+    npm install node-bignumber
 
 Usage
 -----
@@ -77,3 +84,21 @@ In addition, the following condition applies:
 
 All redistributions must retain an intact copy of this copyright notice
 and disclaimer.
+
+Licensing For Code used in rsa.js
+---------------------------------
+  
+rsasign-1.2.js (c) 2012 Kenji Urushima | kjur.github.com/jsrsasign/license
+
+rsa-sign.js - adding signing functions to RSAKey class.
+
+version: 1.2.1 (08 May 2012)
+
+Copyright (c) 2010-2012 Kenji Urushima (kenji.urushima@gmail.com)
+
+This software is licensed under the terms of the MIT License.
+http://kjur.github.com/jsrsasign/license/
+
+The above copyright and license notice shall be
+included in all copies or substantial portions of the Software.
+  
